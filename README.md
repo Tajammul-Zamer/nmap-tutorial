@@ -12,3 +12,21 @@ To scan a single host, open a terminal or command prompt and use the following c
 nmap <target>
 ```
 Replace < target > with the IP address or hostname of the host you want to scan. For example:
+```
+nmap 192.168.1.1
+```
+This command will perform a default set of scans on the target host.
+#
+### Scan a Range of Hosts
+If you want to scan a range of hosts, you can specify an IP address range. For example:
+```
+nmap 192.168.1.1-10
+```
+This command will scan all hosts in the range from 192.168.1.1 to 192.168.1.10.
+# Scan a Specific Port
+By default, Nmap scans the most common 1,000 ports. If you want to scan a specific port or a range of ports, you can use the -p option. For example:
+```
+nmap -p 80 192.168.1.1
+```
+This command will scan only port 80 on the target host.
+#
