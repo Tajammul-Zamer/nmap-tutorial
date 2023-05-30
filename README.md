@@ -11,4 +11,4 @@ To scan a single host, open a terminal or command prompt and use the following c
 ```
 nmap <target>
 ```
-Replace <target> with the IP address or hostname of the host you want to scan. For example:
+Replace < target > with the IP address or hostname of the host you want to scan. For example:
